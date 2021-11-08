@@ -1,0 +1,31 @@
+.header{
+    position: absolute;
+    top: 13px;
+    right: 23px;
+}
+.header .links a,button{
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.links .links-usual{
+    color: rgb(65, 63, 63);     
+    font-weight: 500;
+}
+.links-usual:hover{
+    text-decoration: underline;
+}
+.links .menu-icon img{
+    /* margin-top: -5px; */
+    width: 22px;
+    height: 22px;
+}
+.links .links-signin{
+     width: 105px;
+     height: 40px;
+     text-align: center;
+     margin-left:20px;
+     font-weight: 500;
+     font-size: 17px;
+}
