@@ -16,10 +16,10 @@
   width: 100%;
 }
 
-.form-control{
+/* .form-control{
   padding: 1rem 2rem;
   
-}
+} */
 .form-control:hover{
   box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
   border-color: rgba(223,225,229,0);
@@ -65,3 +65,8 @@
   color: #1a0dab;
 }
 
+@media (min-width:700px) {
+  .App-main{
+    width:70% !important;
+  }
+}
